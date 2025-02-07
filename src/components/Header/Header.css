@@ -33,3 +33,11 @@
     line-height: 1.8rem;
   }
 }
+
+@media (max-width:400px) {
+  .description{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.8rem;
+  }
+}
