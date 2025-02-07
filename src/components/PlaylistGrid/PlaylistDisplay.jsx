@@ -1,5 +1,5 @@
-import './playlistDisplay.css'
-
+import React, { useState } from "react";
+import './PlaylistDisplay.css'
 
 const PlaylistDisplay = ({ playlists, hasSearched }) => {
   if (hasSearched && (!playlists || playlists.length === 0)) {
