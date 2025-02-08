@@ -14,7 +14,9 @@
  height: 250px;
  box-shadow: 6px 6px 12px rgba(0,0, 0, 0.6);
 }
-
+.playlist img:hover{
+  box-shadow: 4px 4px 8px rgba(9, 179, 65, 0.6);
+}
 .playlist .playlist-name{
   position: absolute;
   bottom: 30px;
