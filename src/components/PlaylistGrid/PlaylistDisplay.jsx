@@ -36,6 +36,7 @@ const PlaylistDisplay = ({ playlists, hasSearched }) => {
           </div>
         )
       )):<p>⚠ Select Your Mood To View Playlists ⚠</p>
+         
     
     }
     </div>

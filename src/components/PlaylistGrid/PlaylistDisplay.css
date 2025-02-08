@@ -12,6 +12,7 @@
 .playlist img{
  width: 250px;
  height: 250px;
+ box-shadow: 6px 6px 12px rgba(0,0, 0, 0.6);
 }
 
 .playlist .playlist-name{
@@ -52,6 +53,7 @@
 .playlist img{
   height: 200px;
   width: 200px;
+
 }
   
 }
@@ -66,6 +68,7 @@
 .playlist img{
   height: 180px;
   width: 180px;
+
 }
   
 }
@@ -76,12 +79,12 @@
     justify-content:space-between;
     grid-template-columns: auto auto;
     gap: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .playlist img{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
    }
   .playlist .playlist-name{
     position: absolute;

@@ -10,8 +10,7 @@ const MoodSelector = ({setPlaylists, setHasSearched, setLoading }) => {
     if (mood) {
       setHasSearched(true);
       setLoading(true); // Start loading
-
-
+    
       try {
              //fetch data
       const playlists = await searchPlaylistsByMood(mood);
